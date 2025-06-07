@@ -2,7 +2,7 @@
 
 ![Project Banner](https://img.shields.io/badge/RTL--to--SoC-Verified-blue?style=for-the-badge) 
 
-A complete System-on-Chip (SoC) design integrating a Verilog-based SPI controller with a RISC-V ET1032 processor, tested through both simulation and hardware implementation on the ARTY A7 FPGA. The system includes a real-world temperature monitoring application interfaced via Arduino and DHT11 sensor.
+A complete System-on-Chip (SoC) design integrating a Verilog-based SPI controller with a RISC-V ET1035 processor, tested through both simulation and hardware implementation on the ARTY A7 FPGA. The system includes a real-world temperature monitoring application interfaced via Arduino and DHT11 sensor.
 
 ---
 
@@ -20,7 +20,7 @@ This project demonstrates the implementation of a full-duplex SPI controller in 
 ```
 [ Arduino (Sensor Input) ]
        ↓ UART
-[ RISC-V ET1032 CPU ]
+[ RISC-V ET1035 CPU ]
        ↓
 [ SPI Controller ] ⇄ [ SPI Slave ]
        ↓                 ↑
@@ -92,7 +92,6 @@ This project demonstrates the implementation of a full-duplex SPI controller in 
 
 ## 📎 Resources
 - [SPI Protocol Wikipedia](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
-- [RISC-V ET1032 Docs](https://et1032.readthedocs.io)
 - [Vivado FPGA Tool](https://www.xilinx.com/products/design-tools/vivado.html)
 
 ---
